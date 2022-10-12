@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+  /*  overflow: hidden;*/
+}
+
+
+.bg{
+    width: 100%;
+    height: 94.2%;
+    background-color:grey;
+    opacity: 40%;
+    position: absolute;
+    top:40px;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://thumbs.dreamstime.com/z/top-view-women-fashion-stylish-clothes-travel-accessories-colorful-background-146628824.jpg");
+}
+
+.text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 3rem;
+    align-content: center;
+}
+.style{
+  margin-left: 30%;
+  text-transform: uppercase;
+}
+h2{
+    margin-left: 2;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 2%;
+    height:40px;
+    background-color:white;
+    align-items: center;
+
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    
+}
+.right a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: 700;
+}
+
+.search{
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    float: left;
+    cursor: text;
+    font-size: 1rem;
+}
+button{
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+    border: none;
+    background-color:rgb(187, 203, 219);
+}
+#container{
+    width: 100%;
+    height: 70%;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    overflow: hidden;
+   text-align: center;
+   background-color: #EE6983;
+}
+#slider{
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    height: 70%;
+    position: relative;
+    margin-left: 20%;
+}
+
+.slide{
+    width: 100%;
+    /* background-color: black; */
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: absolute;
+    transition-duration: 1s;
+    left:0%;
+    border: 1px solid green;
+}
+
+#slide-content{
+    height:280px;
+    width:500px ;
+    background-color: paleturquoise;
+    margin-right: 20px;
+    padding:50px 20px;
+}
+
+#slide-content p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+#slide-img{
+    height:280px;
+    width:350px ;
+    /* background-color:yellow; */
+}
+
+.s1 #slide-img{
+    background-image: url("Tashiara-fashion-blogger.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.s2 #slide-img{
+    background-image: url("these-stylish-fits-are-all-youll-need-for-every-type-of-workout-2.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.s3 #slide-img{
+    background-image: url("national-handloom-day-7-homegrown-brands-celebrating-indias-rich-handloom-history-1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#container h2{
+    font-size: 100px;
+   font-family: 'Great Vibes', cursive;
+   letter-spacing: 5px;
+}
+
+#slider button{
+    position: relative;
+    top: 40%;
+}
+
+#next{
+    left: 94%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#testimonials{
+    width: 65%;
+    background-color: #fff;
+    height: 300px;
+    position: absolute;
+    top:15%;
+    left: 17.5%;
+    display: flex; 
+    margin: auto 5%;
+    overflow: hidden;
+}
+.fe{
+   
+    
+    
+}
+
+.fe2{
+    width: 90%;
+    height: 100%;
+     transform: translateX(100%); 
+    background-color:red; 
+    position: absolute;
+    z-index: 99; 
+    animation: ab 1s cubic-bezier(0.19, 1, 0.22, 1) 1s both
+}
+
+.fe3{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+     transform: translateX(100%); 
+    background-color:blue; 
+   
+    animation: ab 1s cubic-bezier(0.19, 1, 0.22, 1) 2s both
+}
+
+ #fe-text{
+    width:60%;
+    height: 250px;
+    background-color: bisque;
+    /* position: relative;
+    top: 8%;
+    left: 8%; 
+}
+
+#fe-img{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+} 
+/*
+@keyframes ab{
+    from{opacity: 0;
+    width: 0;}
+    to{opacity: 1;
+    width: 90%;}
+}*/
